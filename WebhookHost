@@ -1,0 +1,5 @@
+$ git clone git://github.com/Runscope/requestbin.git
+$ heroku create
+$ heroku addons:add heroku-redis
+$ heroku config:set REALM=prod
+$ git push heroku master
